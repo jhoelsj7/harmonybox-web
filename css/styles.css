@@ -119,3 +119,120 @@ body {
 .placeholder-img {
     border-radius: 8px;
 }
+/* Estilos para la página de productos */
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.specs-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.specs-list li {
+    padding: 5px 0;
+    border-bottom: 1px dashed #eee;
+}
+
+.category-card {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.category-card:hover {
+    transform: scale(1.05);
+}
+
+.custom-options {
+    list-style: none;
+    padding-left: 0;
+}
+
+.custom-options li {
+    padding: 5px 0;
+    position: relative;
+    padding-left: 25px;
+}
+
+.custom-options li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #28a745;
+    font-weight: bold;
+}
+
+.product-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/product-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 60px 0;
+}/* Estilos para la página de productos */
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.specs-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+}
+
+.specs-list li {
+    padding: 5px 0;
+    border-bottom: 1px dashed #eee;
+}
+
+.category-card {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.category-card:hover {
+    transform: scale(1.05);
+}
+
+.custom-options {
+    list-style: none;
+    padding-left: 0;
+}
+
+.custom-options li {
+    padding: 5px 0;
+    position: relative;
+    padding-left: 25px;
+}
+
+.custom-options li:before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #28a745;
+    font-weight: bold;
+}
+
+.product-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/product-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 60px 0;
+}
